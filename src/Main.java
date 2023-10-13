@@ -3,6 +3,7 @@ import Models.Dao.SellerDao;
 import Models.Entities.Department;
 import Models.Entities.Seller;
 
+import java.util.Date;
 import java.util.List;
 
 
@@ -31,6 +32,12 @@ public class Main {
         for (Seller obj : sellers2){
             System.out.println(seller);
         }
+
+        // insert
+        System.out.println("Insert :");
+        Seller seller2 = new Seller(null, "jao", "jao@gmail.com", new Date(), 4000.00, department);
+        sellerDao.insert(seller2);
+        System.out.println("Inserted! New id = " + seller2.getId());
         System.out.println();
     }
 }
