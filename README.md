@@ -1,24 +1,15 @@
-# Course JDBC JAVA
-This example project demonstrates using Java to interact with an SQL database. It includes insert, update, delete, and query operations on a database, as well as handling database-related exceptions. The project is intended for educational purposes and illustrates basic JDBC (Java Database Connectivity) programming concepts.
+# Design Pattern DAO - JAVA
 
 ## Functionalities
-
-1. Insertion: Insert a new seller into the "seller" table.
-
-2. Update: Updates base salary for salespeople based on their department.
-
-3. Deletion: Remove a department from the "department" table. This example includes exception handling for referential integrity.
-
-4. Query: Retrieves and displays data from the "department" table.
 
 ## How to Run the Application
 Clone this repository to your local environment using the command:
 ```
-https://github.com/vjrsz/CourseJDBC-JAVA.git
+https://github.com/vjrsz/DesignPatternDAO-JAVA.git
 ```
 Navigate to the project directory:
 ```
-cd CourseJDBC-JAVA
+cd DesignPatternDAO-JAVA
 ```
 Run the application:
 ```
